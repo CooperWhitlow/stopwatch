@@ -14,11 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD
                BlueprintIdentifier = "1ECEBFF51CA72F1600DE109C"
-=======
-               BlueprintIdentifier = "1ECEBFD31CA72CCF00DE109C"
->>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
                BuildableName = "StopWatch.app"
                BlueprintName = "StopWatch"
                ReferencedContainer = "container:StopWatch.xcodeproj">
@@ -36,11 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
             BlueprintIdentifier = "1ECEBFF51CA72F1600DE109C"
-=======
-            BlueprintIdentifier = "1ECEBFD31CA72CCF00DE109C"
->>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
             BuildableName = "StopWatch.app"
             BlueprintName = "StopWatch"
             ReferencedContainer = "container:StopWatch.xcodeproj">
@@ -63,11 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
             BlueprintIdentifier = "1ECEBFF51CA72F1600DE109C"
-=======
-            BlueprintIdentifier = "1ECEBFD31CA72CCF00DE109C"
->>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
             BuildableName = "StopWatch.app"
             BlueprintName = "StopWatch"
             ReferencedContainer = "container:StopWatch.xcodeproj">
@@ -86,11 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD
             BlueprintIdentifier = "1ECEBFF51CA72F1600DE109C"
-=======
-            BlueprintIdentifier = "1ECEBFD31CA72CCF00DE109C"
->>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
             BuildableName = "StopWatch.app"
             BlueprintName = "StopWatch"
             ReferencedContainer = "container:StopWatch.xcodeproj">
