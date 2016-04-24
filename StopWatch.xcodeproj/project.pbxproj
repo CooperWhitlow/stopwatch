@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		1ECEBFFA1CA72F1600DE109C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEBFF91CA72F1600DE109C /* AppDelegate.swift */; };
 		1ECEBFFC1CA72F1600DE109C /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEBFFB1CA72F1600DE109C /* TopViewController.swift */; };
 		1ECEBFFF1CA72F1600DE109C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ECEBFFD1CA72F1600DE109C /* Main.storyboard */; };
@@ -34,6 +35,29 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		1ECEBFF31CA72F1600DE109C /* Frameworks */ = {
+=======
+		1ECEBFD81CA72CCF00DE109C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEBFD71CA72CCF00DE109C /* AppDelegate.swift */; };
+		1ECEBFDA1CA72CCF00DE109C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEBFD91CA72CCF00DE109C /* MainViewController.swift */; };
+		1ECEBFDC1CA72CCF00DE109C /* CountUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECEBFDB1CA72CCF00DE109C /* CountUpViewController.swift */; };
+		1ECEBFDF1CA72CCF00DE109C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ECEBFDD1CA72CCF00DE109C /* Main.storyboard */; };
+		1ECEBFE11CA72CCF00DE109C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ECEBFE01CA72CCF00DE109C /* Assets.xcassets */; };
+		1ECEBFE41CA72CCF00DE109C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ECEBFE21CA72CCF00DE109C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ECEBFD41CA72CCF00DE109C /* StopWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ECEBFD71CA72CCF00DE109C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ECEBFD91CA72CCF00DE109C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1ECEBFDB1CA72CCF00DE109C /* CountUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountUpViewController.swift; sourceTree = "<group>"; };
+		1ECEBFDE1CA72CCF00DE109C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ECEBFE01CA72CCF00DE109C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ECEBFE31CA72CCF00DE109C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ECEBFE51CA72CCF00DE109C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ECEBFD11CA72CCF00DE109C /* Frameworks */ = {
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +67,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		1ECEBFED1CA72F1600DE109C = {
 			isa = PBXGroup;
 			children = (
@@ -55,10 +80,25 @@
 			isa = PBXGroup;
 			children = (
 				1ECEBFF61CA72F1600DE109C /* StopWatch.app */,
+=======
+		1ECEBFCB1CA72CCF00DE109C = {
+			isa = PBXGroup;
+			children = (
+				1ECEBFD61CA72CCF00DE109C /* StopWatch */,
+				1ECEBFD51CA72CCF00DE109C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ECEBFD51CA72CCF00DE109C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ECEBFD41CA72CCF00DE109C /* StopWatch.app */,
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		1ECEBFF81CA72F1600DE109C /* StopWatch */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,10 +111,23 @@
 				1ECEC0001CA72F1600DE109C /* Assets.xcassets */,
 				1ECEC0021CA72F1600DE109C /* LaunchScreen.storyboard */,
 				1ECEC0051CA72F1600DE109C /* Info.plist */,
+=======
+		1ECEBFD61CA72CCF00DE109C /* StopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				1ECEBFD71CA72CCF00DE109C /* AppDelegate.swift */,
+				1ECEBFD91CA72CCF00DE109C /* MainViewController.swift */,
+				1ECEBFDB1CA72CCF00DE109C /* CountUpViewController.swift */,
+				1ECEBFDD1CA72CCF00DE109C /* Main.storyboard */,
+				1ECEBFE01CA72CCF00DE109C /* Assets.xcassets */,
+				1ECEBFE21CA72CCF00DE109C /* LaunchScreen.storyboard */,
+				1ECEBFE51CA72CCF00DE109C /* Info.plist */,
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			);
 			path = StopWatch;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		1ECEC00F1CA7AD6200DE109C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +163,18 @@
 				1ECEBFF21CA72F1600DE109C /* Sources */,
 				1ECEBFF31CA72F1600DE109C /* Frameworks */,
 				1ECEBFF41CA72F1600DE109C /* Resources */,
+=======
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ECEBFD31CA72CCF00DE109C /* StopWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ECEBFE81CA72CCF00DE109C /* Build configuration list for PBXNativeTarget "StopWatch" */;
+			buildPhases = (
+				1ECEBFD01CA72CCF00DE109C /* Sources */,
+				1ECEBFD11CA72CCF00DE109C /* Frameworks */,
+				1ECEBFD21CA72CCF00DE109C /* Resources */,
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			);
 			buildRules = (
 			);
@@ -117,26 +182,42 @@
 			);
 			name = StopWatch;
 			productName = StopWatch;
+<<<<<<< HEAD
 			productReference = 1ECEBFF61CA72F1600DE109C /* StopWatch.app */;
+=======
+			productReference = 1ECEBFD41CA72CCF00DE109C /* StopWatch.app */;
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
+<<<<<<< HEAD
 		1ECEBFEE1CA72F1600DE109C /* Project object */ = {
+=======
+		1ECEBFCC1CA72CCF00DE109C /* Project object */ = {
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Cooper Whitlow";
 				TargetAttributes = {
+<<<<<<< HEAD
 					1ECEBFF51CA72F1600DE109C = {
+=======
+					1ECEBFD31CA72CCF00DE109C = {
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 78QN399MNP;
 					};
 				};
 			};
+<<<<<<< HEAD
 			buildConfigurationList = 1ECEBFF11CA72F1600DE109C /* Build configuration list for PBXProject "StopWatch" */;
+=======
+			buildConfigurationList = 1ECEBFCF1CA72CCF00DE109C /* Build configuration list for PBXProject "StopWatch" */;
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -144,17 +225,27 @@
 				en,
 				Base,
 			);
+<<<<<<< HEAD
 			mainGroup = 1ECEBFED1CA72F1600DE109C;
 			productRefGroup = 1ECEBFF71CA72F1600DE109C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1ECEBFF51CA72F1600DE109C /* StopWatch */,
+=======
+			mainGroup = 1ECEBFCB1CA72CCF00DE109C;
+			productRefGroup = 1ECEBFD51CA72CCF00DE109C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ECEBFD31CA72CCF00DE109C /* StopWatch */,
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+<<<<<<< HEAD
 		1ECEBFF41CA72F1600DE109C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -164,12 +255,22 @@
 				1EDA4A7B1CB1BB6500C527E9 /* pause.png in Resources */,
 				1ECEC0011CA72F1600DE109C /* Assets.xcassets in Resources */,
 				1ECEBFFF1CA72F1600DE109C /* Main.storyboard in Resources */,
+=======
+		1ECEBFD21CA72CCF00DE109C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ECEBFE41CA72CCF00DE109C /* LaunchScreen.storyboard in Resources */,
+				1ECEBFE11CA72CCF00DE109C /* Assets.xcassets in Resources */,
+				1ECEBFDF1CA72CCF00DE109C /* Main.storyboard in Resources */,
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 		1ECEBFF21CA72F1600DE109C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,24 +279,47 @@
 				1ECEC00C1CA7ACAE00DE109C /* StopwatchViewControler.swift in Sources */,
 				1ECEBFFC1CA72F1600DE109C /* TopViewController.swift in Sources */,
 				1ECEBFFA1CA72F1600DE109C /* AppDelegate.swift in Sources */,
+=======
+		1ECEBFD01CA72CCF00DE109C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ECEBFDC1CA72CCF00DE109C /* CountUpViewController.swift in Sources */,
+				1ECEBFD81CA72CCF00DE109C /* AppDelegate.swift in Sources */,
+				1ECEBFDA1CA72CCF00DE109C /* MainViewController.swift in Sources */,
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+<<<<<<< HEAD
 		1ECEBFFD1CA72F1600DE109C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1ECEBFFE1CA72F1600DE109C /* Base */,
+=======
+		1ECEBFDD1CA72CCF00DE109C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ECEBFDE1CA72CCF00DE109C /* Base */,
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		1ECEC0021CA72F1600DE109C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1ECEC0031CA72F1600DE109C /* Base */,
+=======
+		1ECEBFE21CA72CCF00DE109C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ECEBFE31CA72CCF00DE109C /* Base */,
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -203,7 +327,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 		1ECEC0061CA72F1600DE109C /* Debug */ = {
+=======
+		1ECEBFE61CA72CCF00DE109C /* Debug */ = {
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +377,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		1ECEC0071CA72F1600DE109C /* Release */ = {
+=======
+		1ECEBFE71CA72CCF00DE109C /* Release */ = {
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +420,11 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		1ECEC0091CA72F1600DE109C /* Debug */ = {
+=======
+		1ECEBFE91CA72CCF00DE109C /* Debug */ = {
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -299,7 +435,11 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		1ECEC00A1CA72F1600DE109C /* Release */ = {
+=======
+		1ECEBFEA1CA72CCF00DE109C /* Release */ = {
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -313,15 +453,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
 		1ECEBFF11CA72F1600DE109C /* Build configuration list for PBXProject "StopWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1ECEC0061CA72F1600DE109C /* Debug */,
 				1ECEC0071CA72F1600DE109C /* Release */,
+=======
+		1ECEBFCF1CA72CCF00DE109C /* Build configuration list for PBXProject "StopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECEBFE61CA72CCF00DE109C /* Debug */,
+				1ECEBFE71CA72CCF00DE109C /* Release */,
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		1ECEC0081CA72F1600DE109C /* Build configuration list for PBXNativeTarget "StopWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -334,4 +483,17 @@
 /* End XCConfigurationList section */
 	};
 	rootObject = 1ECEBFEE1CA72F1600DE109C /* Project object */;
+=======
+		1ECEBFE81CA72CCF00DE109C /* Build configuration list for PBXNativeTarget "StopWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECEBFE91CA72CCF00DE109C /* Debug */,
+				1ECEBFEA1CA72CCF00DE109C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ECEBFCC1CA72CCF00DE109C /* Project object */;
+>>>>>>> 0a76a4598952c85889e8909c6743f3855d47158b
 }
